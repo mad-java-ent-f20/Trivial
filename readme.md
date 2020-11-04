@@ -18,7 +18,7 @@ Does Covid have you bored at home, need something to entertain yourself, and you
 
 
 ### Api:
-*api service class that sends request to api then processes response
+api service class that sends request to api then processes response
 service class which handles requests when request comes in, service classes uses api service object to get response then returns as json
 Application class to incorporate service class classes
  
