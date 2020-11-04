@@ -15,8 +15,10 @@ public class HelloWorld {
     // The Java method will produce content identified by the MIME Media type "text/plain"
     @Produces("text/plain")
     public Response getUserByName(@PathParam("name") String name) {
-              // Return a simple message
+              // Returns name
         String output =  name + ",  Welcome to our Project";
         return Response.status(200).entity(output).build();
     }
+
+
 }
